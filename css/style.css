@@ -1,0 +1,106 @@
+/* universal styles  */
+
+#wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    min-width: 200px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #000;
+    color: #fff;
+    border:none;
+    margin: 5px 0 15px;
+}
+
+.smIcon{
+    background-color: red;
+    width: 50px;
+    margin-right: 15px ;
+}
+
+.portfolioField{
+    height: 300px;
+    width: 95%;
+    max-width: 700px;
+    margin: 10px auto;
+
+}
+.portfolioField h3{
+    font-size: 2rem;
+    background-color: #fff;
+    padding: 10px 0 10px 15px;    
+    max-width: 375px;
+}
+
+.portfolioField h4{
+    font-size: 1.25rem;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 0 5px 10px;    
+    max-width: 425px;
+    margin: 5px 0 15px;
+}
+
+
+
+/* NAME PLATE */
+#namePlate{
+    height: auto;
+    padding: 10% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#nameLogo{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 98%;
+    max-width: 600px;
+    height: auto;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo{
+    width: 125px;
+    align-self: center;
+}
+h1.name{
+    font-size: 3.5rem;
+}
+h2.title{
+    font-size: 1.5rem;
+}
+#allSmIcons{
+    width: 100%;
+    max-width: 400px;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+/* WEB INTRO  */
+#webIntro{
+    background: lightblue;
+}
+
+
+/* PHOTO INTRO  */
+
+#photoIntro{
+    background: lightgreen;
+}
