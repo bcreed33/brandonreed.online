@@ -40,12 +40,16 @@
         display: flex;
         flex-flow: column nowrap;
         padding: 25px 0;
+        justify-content: flex-start;
+        align-items: flex-start;
+
 
     }
     .portfolioField h3{
         font-size: 1.75rem;
         background-color: #fff;
-        padding: 10px 0 10px 15px;    
+        padding: 10px 0 10px 15px;
+        width: 85%;    
         max-width: 375px;
     }
 
@@ -54,17 +58,23 @@
         background-color: #000;
         color: #fff;
         padding: 5px 0 5px 10px;    
+        width: 80%; 
         max-width: 425px;
-        margin: 5px 0 15px;
+        margin: 5px 0;
     }
 
     .smIcons{
         padding: 0 25px;
-        max-width: 300px;
-        min-width: 200px;
+        width: 200px;
     }
     .webSmIcons{background-color: #e98324;}
     .photoSmIcons{background-color: #3a74a6;}
+
+
+
+
+
+
 
     /* NAME PLATE */
     #namePlate{
@@ -250,11 +260,14 @@
         }
 
         .portfolioField h4 {
-            width: 80%;
+            width: 85%;
             max-width: 350px;
         }
 
-
+        .smIcons{
+            padding: 0 20px;
+            width: 250px;
+        }
         .smIcon{
             width: 50px;
             margin: 7.5px ;
