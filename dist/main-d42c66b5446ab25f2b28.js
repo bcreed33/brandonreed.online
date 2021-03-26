@@ -719,6 +719,8 @@ var style_update = injectStylesIntoStyleTag_default()(style/* default */.Z, styl
 
 // import './img/linkedin-logo.png';
 
+
+//this is importing all the images from the src/img folder
 const src_images = importAll(__webpack_require__(134));
 })();
 
