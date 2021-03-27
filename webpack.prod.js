@@ -18,7 +18,7 @@ module.exports = merge(common,{
     ],
     module: {
         rules: [ {
-            test: /\.scss$/,
+            test: /\.css$/,
             use: [
                 {
                     loader: MiniCssExtractPlugin.loader,
@@ -27,7 +27,7 @@ module.exports = merge(common,{
                     },
                   },
                 "css-loader",
-                "sass-loader",
+                'postcss-loader',
             ],
         }]
     }
