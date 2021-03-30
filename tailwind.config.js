@@ -5,12 +5,19 @@ module.exports = {
     extend: {
       backgroundImage: {
        'hero1': "url('../../img/webhero.jpg')",
-       'photo1': "url('../../img/photos/photo1.jpg')",
-       'photo2': "url('../../img/photos/photo2.jpg')",
-       'photo3': "url('../../img/photos/photo3.jpg')",
-       'photo4': "url('../../img/photos/photo4.jpg')",
-       'photo5': "url('../../img/photos/photo5.jpg')",
-       'photo6': "url('../../img/photos/photo6.jpg')",
+       'photo1': "url('../../img/photos/photo1.png')",
+       'photo2': "url('../../img/photos/photo2.png')",
+       'photo3': "url('../../img/photos/photo3.png')",
+       'photo4': "url('../../img/photos/photo4.png')",
+       'photo5': "url('../../img/photos/photo5.png')",
+       'photo6': "url('../../img/photos/photo6.png')",
+       'photo7': "url('../../img/photos/photo7.png')",
+       'photo8': "url('../../img/photos/photo8.png')",
+       'photo9': "url('../../img/photos/photo9.png')",
+       'photo10': "url('../../img/photos/photo10.png')",
+       'photo11': "url('../../img/photos/photo11.png')",
+       'photo12': "url('../../img/photos/photo12.png')",
+
       },
       backgroundOpacity: ['active'],
       colors: {
