@@ -1,5 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require("path");
+const tailwindcss = require('tailwindcss');
 
 module.exports = {
     entry: "./src/app/index.js",
