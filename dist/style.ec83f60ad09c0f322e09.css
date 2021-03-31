@@ -3980,6 +3980,10 @@ video {
   background-image: url(././img/webhero.jpg);
 }
 
+.bg-hero2{
+  background-image: url(././img/newHero1.png);
+}
+
 .bg-photo1{
   background-image: url(././img/photo1.png);
 }
@@ -31383,6 +31387,10 @@ video {
     background-image: url(././img/webhero.jpg);
   }
 
+  .sm\:bg-hero2{
+    background-image: url(././img/newHero1.png);
+  }
+
   .sm\:bg-photo1{
     background-image: url(././img/photo1.png);
   }
@@ -58741,6 +58749,10 @@ video {
 
   .md\:bg-hero1{
     background-image: url(././img/webhero.jpg);
+  }
+
+  .md\:bg-hero2{
+    background-image: url(././img/newHero1.png);
   }
 
   .md\:bg-photo1{
@@ -86103,6 +86115,10 @@ video {
     background-image: url(././img/webhero.jpg);
   }
 
+  .lg\:bg-hero2{
+    background-image: url(././img/newHero1.png);
+  }
+
   .lg\:bg-photo1{
     background-image: url(././img/photo1.png);
   }
@@ -113463,6 +113479,10 @@ video {
     background-image: url(././img/webhero.jpg);
   }
 
+  .xl\:bg-hero2{
+    background-image: url(././img/newHero1.png);
+  }
+
   .xl\:bg-photo1{
     background-image: url(././img/photo1.png);
   }
@@ -140821,6 +140841,10 @@ video {
 
   .\32xl\:bg-hero1{
     background-image: url(././img/webhero.jpg);
+  }
+
+  .\32xl\:bg-hero2{
+    background-image: url(././img/newHero1.png);
   }
 
   .\32xl\:bg-photo1{
