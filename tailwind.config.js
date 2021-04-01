@@ -2,7 +2,11 @@ module.exports = {
   purge: ['./dist/*.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    flex:{
+      '2': '2 2 0%',
+    },
     extend: {
+      flex: ['hover', 'focus'],
       backgroundImage: {
        'hero1': "url('../../img/webhero.jpg')",
        'hero2' : "url('../../img/newHero1.png')",

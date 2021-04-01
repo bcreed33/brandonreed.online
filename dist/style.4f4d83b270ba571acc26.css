@@ -10386,20 +10386,16 @@ video {
   justify-self: stretch;
 }
 
+.flex-0{
+  flex: hover;
+}
+
 .flex-1{
-  flex: 1 1 0%;
+  flex: focus;
 }
 
-.flex-auto{
-  flex: 1 1 auto;
-}
-
-.flex-initial{
-  flex: 0 1 auto;
-}
-
-.flex-none{
-  flex: none;
+.flex-2{
+  flex: 2 2 0%;
 }
 
 .flex-grow-0{
@@ -27947,6 +27943,10 @@ video {
   animation: bounce 1s infinite;
 }
 
+.flex-2 {
+  flex-grow: 2;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
@@ -37793,20 +37793,16 @@ video {
     justify-self: stretch;
   }
 
+  .sm\:flex-0{
+    flex: hover;
+  }
+
   .sm\:flex-1{
-    flex: 1 1 0%;
+    flex: focus;
   }
 
-  .sm\:flex-auto{
-    flex: 1 1 auto;
-  }
-
-  .sm\:flex-initial{
-    flex: 0 1 auto;
-  }
-
-  .sm\:flex-none{
-    flex: none;
+  .sm\:flex-2{
+    flex: 2 2 0%;
   }
 
   .sm\:flex-grow-0{
@@ -65157,20 +65153,16 @@ video {
     justify-self: stretch;
   }
 
+  .md\:flex-0{
+    flex: hover;
+  }
+
   .md\:flex-1{
-    flex: 1 1 0%;
+    flex: focus;
   }
 
-  .md\:flex-auto{
-    flex: 1 1 auto;
-  }
-
-  .md\:flex-initial{
-    flex: 0 1 auto;
-  }
-
-  .md\:flex-none{
-    flex: none;
+  .md\:flex-2{
+    flex: 2 2 0%;
   }
 
   .md\:flex-grow-0{
@@ -92521,20 +92513,16 @@ video {
     justify-self: stretch;
   }
 
+  .lg\:flex-0{
+    flex: hover;
+  }
+
   .lg\:flex-1{
-    flex: 1 1 0%;
+    flex: focus;
   }
 
-  .lg\:flex-auto{
-    flex: 1 1 auto;
-  }
-
-  .lg\:flex-initial{
-    flex: 0 1 auto;
-  }
-
-  .lg\:flex-none{
-    flex: none;
+  .lg\:flex-2{
+    flex: 2 2 0%;
   }
 
   .lg\:flex-grow-0{
@@ -119885,20 +119873,16 @@ video {
     justify-self: stretch;
   }
 
+  .xl\:flex-0{
+    flex: hover;
+  }
+
   .xl\:flex-1{
-    flex: 1 1 0%;
+    flex: focus;
   }
 
-  .xl\:flex-auto{
-    flex: 1 1 auto;
-  }
-
-  .xl\:flex-initial{
-    flex: 0 1 auto;
-  }
-
-  .xl\:flex-none{
-    flex: none;
+  .xl\:flex-2{
+    flex: 2 2 0%;
   }
 
   .xl\:flex-grow-0{
@@ -147249,20 +147233,16 @@ video {
     justify-self: stretch;
   }
 
+  .\32xl\:flex-0{
+    flex: hover;
+  }
+
   .\32xl\:flex-1{
-    flex: 1 1 0%;
+    flex: focus;
   }
 
-  .\32xl\:flex-auto{
-    flex: 1 1 auto;
-  }
-
-  .\32xl\:flex-initial{
-    flex: 0 1 auto;
-  }
-
-  .\32xl\:flex-none{
-    flex: none;
+  .\32xl\:flex-2{
+    flex: 2 2 0%;
   }
 
   .\32xl\:flex-grow-0{
