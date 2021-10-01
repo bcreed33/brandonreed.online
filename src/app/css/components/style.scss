@@ -26,6 +26,15 @@ button {
   margin: 5px 0 15px;
 }
 
+.myLinks{ 
+  
+  &:hover{
+  background-color: #e98324;
+  -webkit-box-shadow:inset 1px 1px 10px 5px rgba(1,1,1,1);
+box-shadow:inset 1px 1px 10px 5px rgba(1,1,1,1);
+  }
+}
+
 .smIcon {
   width: 45px;
   margin-right: 15px;
